@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
    height: 100vh;
+   background-image: url(/GuitarBattle/img/fondoinicio.jpg);
 }
 
 .container{
@@ -27,30 +28,27 @@ justify-content: center;
     display: block;
     margin: 0 auto;
 }
-
-.right {
-    text-align: right;
-}
 .widthCanvas{
     width: 80%;
     margin: 0 auto;
+    
 }
 .name{
     text-align: center;
     padding-top: 20px;
 }
-.pause{
-    /* bootstrap? */
+th,td{
+    color: black;
+    background-color: white;
 }
-.exit{
-/* bootstrap? */
-}
+
 .score{
     text-align: right;
+    
 }
 
 .lives{
-
+    text-align: start;
 }
 .guitars{
     display:flex;
@@ -66,14 +64,18 @@ img{
     justify-content: space-between;
     align-items: center; 
 }
-.card{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-}
-h1{
+
+h1,h2{
    text-align: center; 
    padding-top: 50px;
+   color:yellow;
+   font-family: fantasy;
+   height: auto; 
+    
+}
+
+header{
+    text-align: center;
 }
 .inicio{     
     text-align: center;   
@@ -94,10 +96,16 @@ button {
     width:150px;
 }
 .publico {
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 .clasification{
     text-align: center;   
     padding: 20px 50px;
 }
+/* .backgroundIndex{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+} */
